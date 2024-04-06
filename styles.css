@@ -277,3 +277,9 @@ footer{
     color: #FFFFFF;
     font-size: 12px;
 }
+button:hover{
+    background-color: #f0df25;
+}
+.buttonwhite, .buttonbrown:hover{
+    background-color: #f0df25;
+}
