@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.principio{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1024px;
+    padding: 5px 80px;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.principio p{
+    padding-left: 30px;
+    color: #FFFFFF;
+}
+
+/* Aqui empieza el header */
+
+header {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 1024px; 
+    margin: auto; 
+    height: 64px;
+    padding: 20px 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/* Aqui empieza el main */
+
+/* primer section */
+main{
+    margin: auto;
+    width: 1024px;
+}
+.container{
+    background-image: url(./img/fondo.png);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 409px;
+    text-align: center;
+    padding-right: 20px;
+}
+.container span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    background-color: #FFFFFF;
+    width: 365px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #3C2313;
+}
+.container p{
+    color: #3C2313;
+    font-size: 16px;
+}
+.container p, button{
+    margin-top: 15px;
+}
+.container button{
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    height: 49px;
+    width: 141px;
+}
+
+/* segundo section */
+.container2{
+    text-align: center;
+    margin: 20px 0px;
+}
+.container2 h1{
+    color: #3C2313;
+    font-size: 40px;
+}
+.lista{
+    padding: 20px 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #666666;
+    font-size: 15px;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0px;
+    font-size: 15px;
+}
+.productos span{
+    color: #F0A83E;
+}
+.churrasco{
+    background-image: url(./img/churrasquito\(1\).png);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 268px;
+    width: 265px;
+}
+.comedero{
+    background-image: url(./img/comedero.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 268px;
+    width: 265px;
+}
+.hueso{
+    background-image: url(./img/Huesito.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 268px;
+    width: 265px;
+}
+
+/* tercera seccion */
+ .form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+.form .inputs h2{
+    padding-bottom: 20px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    background: #3C2313;
+    border-radius: 15px;
+    height: 40px;
+    width: 340px;
+    color: #FFFFFF;
+    margin: 5px 0px;
+    border: none;
+}
+.inputs h2{
+    color: #3C2313;
+}
+.formbuttons{
+    margin: 20px 0px;
+}
+.formbuttons .buttonwhite{
+    background-color: #8A8787;
+    border-radius: 15px;
+    height: 34px;
+    width: 110px;
+    color: #FFFFFF;
+    border: none;
+}
+.formbuttons .buttonbrown{
+    background-color: #F0A83E;
+    border-radius: 15px;
+    height: 34px;
+    width: 110px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* cuarta seccion */
+.ultimo-container{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    padding: 0px 20px;
+}
+.correo-h3{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.correo-h3 h3{
+    padding-left: 10px;
+}
+
+/* empieza el problema tan hp */
+.input-button{
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    gap: 10px;
+}
+.input-button input{
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    width: 271px;
+}
+.input-button button{
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    height: 34px;
+    width: 70px;
+    color: #FFFFFF;
+    font-size: 11px;
+    margin-bottom: 12px;
+}
+
+/* aqui empieza el footer */
+footer{
+    background-color: #3C2313;
+    width: 1024px;
+    height: 284px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+.footainer h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.footainer p{
+    color: #8A8787;
+    font-size: 12px;
+}
+.iconos-alineados{
+    display: flex;
+}
+.iconos-alineados .icon-telefono{
+    margin-bottom: 20px;
+}
+.iconos-alineados .mover{
+    padding-left: 30px;
+}
+
+/* ultima parte del footer */
+.pie{
+    margin: auto;
+    width: 1024px;
+    text-align: center;
+    background-color: #222222;
+    padding: 5px 0px;
+}
+.pie p{
+    color: #FFFFFF;
+    font-size: 12px;
+}
